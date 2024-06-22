@@ -2,16 +2,13 @@ import React from 'react';
 
 const About = () => {
     return (
-      <div className="home-content">
-      <span className="home-content-info">
-          <span className="container">
-         <h1>ABOUT</h1> 
-          <hr/>
-          According to the Asthma and Allergy Foundation of America, in the US there are more than 100 million people who experience various types of allergies each year.Allergies are the sixth leading causes of chronic illness in the US.I wanted to create a website that could connect individuals that have similar challenges in dealing with weather related allergies.Pollen Pals is place where people can Share their stories, exchange tips, and find solidarity within a supportive community. Together, we can explore strategies for minimizing exposure to allergens, discuss treatment options, and discover lifestyle adjustments that can help alleviate symptoms during different weather conditions.Let weather this storm together.
-
-</span>
-</span>
+      <div>
+  <h1>ABOUT</h1>
+  <span className="about-container">
+    <p>Tired of your allergies coming and going in your daily life? Me too. That's why I created Pollen Pals, a community for those fed up with the constant battle against seasonal allergies. Pollen Pals offers a supportive network where you can connect with others who understand your struggle, share experiences, and find comfort in knowing you're not alone. Get practical advice, tips, and access to the latest treatments, along with real-time pollen and weather alerts to help you manage your symptoms. Track your symptoms, log medications, and find personalized solutions. Join discussions, support groups, and local or virtual events to improve your quality of life. Pollen Pals is dedicated to making life easier for those with seasonal allergies. Join us today and take control of your allergy journey!</p>
+  </span>
 </div>
+
 
     )
   }

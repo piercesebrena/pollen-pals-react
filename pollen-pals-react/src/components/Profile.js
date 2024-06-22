@@ -1,44 +1,29 @@
 import React from 'react';
 
 const Profile= () => {
-    return (
-      <div>Profile
-        <div className="home-content">
-  <div className="home-content-info">
-    <div className="form">
-      <h1>PROFILE</h1>
-      <hr />
-      <form action="action_page.php" method="post">
-        <div className="container">
-          <h1>PROFILE</h1>
-          <label htmlFor="uname">
-            <b>Username</b>
-          </label>
-          <input
-            type="text"
-            placeholder="Enter Username"
-            name="uname"
-            required=""
-          />
-          <label htmlFor="psw">
-            <b>Password</b>
-          </label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            name="psw"
-            required=""
-          />
+  return (
+    <span className="container">
+      <h1>Login</h1>
+      <br />
+      <form action="profile.html" method="post">
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div className="form-group">
           <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" defaultChecked="checked" name="remember" />
-            Remember me
-          </label>
         </div>
       </form>
-    </div>
-  </div>
-</div>
+      <br />
+    </span>
+  );
+}
+
+export default Profile;
 
 
 
@@ -67,14 +52,5 @@ const Profile= () => {
 
 
 
-
-
-
-
-      </div>
-    )
-  }
-
-
-
-  export default Profile;
+   
+  
